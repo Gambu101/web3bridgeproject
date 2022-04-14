@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+<body>
+    <div class="body_division">
+        <header id="header"><center>WEB3BRIDGE<br>PROJECT</center></header>
+        <div class="body2">
+            <div class="bill"><center>Bill</center></div>
+            <div><center><input type="number" name="Bill" id="bill_amount" ></center></div>
+            <div class="select_tip"><center>Select Tip %</center></div>
+            <div class="buttons"><center>
+                <input type="button" value="5" onclick="" class="tip_btn" id="five">
+                <input type="button" value="10" onclick="" class="tip_btn" id="ten"><br>
+                <input type="button" value="15" onclick="" class="tip_btn" id="fifteen">
+                <input type="button" value="25" onclick="" class="tip_btn" id="twenty-five"><br>
+                <input type="button" value="50" onclick="" class="tip_btn" id="fifty">
+                <input type="number"  onclick="" id="custom" placeholder="custom"></center>
+            </div>
+            <div class="no_people"><center>Number of People</center></div>
+            <div><center><input type="number" id="people"></center></div>
+            <Center><div class="tippers">
+                <div class="flexi">
+                    <div class="tip_amount">Tip Amount</br><span style="font-size: 8px;">/ person</div>
+                    <div id="tip_amount">$0</div>
+                </div>
+                <p>
+                <div class="flexi">
+                    <div class="total">Total</br><span style="font-size: 8px;">/ person</span></div>
+                    <div id="total">$0</div>
+
+                </div>
+                </p>
+                <div><button type="reset" id="reset">RESET</button></div>
+            </div></Center>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
